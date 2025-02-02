@@ -1,0 +1,56 @@
+.app{
+	display: flex;
+	width: 100%;
+    flex-direction: column;
+}
+.header{
+	background: #5F9EA0;
+	height: 8em;
+}
+.header > span{
+	color: white;
+	font-size: 4em;
+	margin-left: 4em;
+}
+.navbar{
+	background: #FFEBCD;
+	height: 4em;
+	text-align: center;
+}
+
+.navlinks{
+	margin-top: 0.25em;
+}
+.navlink{
+	text-decoration: none;
+	color: #5F9EA0;
+	font-size: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.navlink:hover{
+	font-weight: bold;
+}
+
+.content{
+	background: rgba(240,240,240);
+}
+.container{
+	width: 1600px;
+	margin: auto;
+	background: rgba(255,255,255,0.7);
+	min-height: calc(100vh - 16em);
+	padding: 2em;
+}
+
+.footer{
+	background: #2F4F4F;
+	height: 4em;
+	text-align: center;
+	padding-top: 2em;
+}
+.footer span{
+	color: white;
+	font-style: italic;
+	font-size: 1.4em;
+}
